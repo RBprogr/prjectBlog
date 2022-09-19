@@ -88,8 +88,8 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 
 DATABASES = {
     'default': dj_database_url.config(
-        #'sqlite:///db.sqlite3'
-        default='postgres://projectblog_user:AtSMccTZzr1DRYUMihA1hYPGhmweZg4p@dpg-ccjov9hgp3jn57v0j9mg-a/projectblog',
+        default='sqlite:///db.sqlite3',
+        # default='postgres://projectblog_user:AtSMccTZzr1DRYUMihA1hYPGhmweZg4p@dpg-ccjov9hgp3jn57v0j9mg-a/projectblog',
         conn_max_age=600
     )
 }
